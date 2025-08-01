@@ -1,4 +1,4 @@
-describe('API - Produtos', () => {
+describe('API - Products', () => {
   it('Should list all products', () => {
     cy.request('https://serverest.dev/produtos')
       .then((res) => {

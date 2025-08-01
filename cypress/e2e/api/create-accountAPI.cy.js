@@ -1,8 +1,8 @@
 const userInfo = require('../../fixtures/userInfo.js')
 const randomEmail = `joaoqa${Date.now()}@qa.com`
 
-describe('API - Usuários', () => {
-  it('Deve criar um novo usuário com sucesso', () => {
+describe('API - users', () => {
+  it('Should create a user with success', () => {
     cy.request({
       method: 'POST',
       url: 'https://serverest.dev/usuarios',
